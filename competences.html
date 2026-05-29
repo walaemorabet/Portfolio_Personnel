@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compétences - Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    <span></span>
+    <h1>WM</h1>
+  </div>
+
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="competences.html" class="active">Compétences</a>
+    <a href="about.html">À propos</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section id="competences" class="skills-section">
+
+    <p class="tag center">Soft skills</p>
+    <h2 class="section-title">Carte des compétences</h2>
+    <p class="section-subtitle">Sélectionnez une compétence pour la découvrir.</p>
+
+    <div class="skills-container">
+
+      <div class="skills-menu">
+        <button class="skill-btn active" data-skill="temps">⏱ Gestion du temps</button>
+        <button class="skill-btn" data-skill="creativite">💡 Créativité</button>
+        <button class="skill-btn" data-skill="reflexivite">🧠 Réflexivité</button>
+        <button class="skill-btn" data-skill="autonomie">🎯 Autonomie</button>
+        <button class="skill-btn" data-skill="equipe">👥 Esprit d’équipe</button>
+        <button class="skill-btn" data-skill="adaptation">🌍 Adaptation</button>
+      </div>
+
+      <div class="skill-card">
+
+        <div class="skill-header">
+          <div class="skill-icon" id="skill-icon">⏱</div>
+          <div>
+            <h3 id="skill-title">Gestion du temps</h3>
+            <p id="skill-subtitle">Organisation des tâches et respect des délais.</p>
+          </div>
+        </div>
+
+        <div class="badges" id="skill-badges">
+          <span>Planification</span>
+          <span>Priorisation</span>
+          <span>Efficacité</span>
+        </div>
+
+        <div class="examples" id="skill-examples">
+          <div>▷ Organisation entre alternance et cours à l’IUT.</div>
+          <div>▷ Respect des délais pour les écritures comptables.</div>
+          <div>▷ Priorisation des rapprochements bancaires.</div>
+          <div>▷ Gestion des missions chez Transplus 18.</div>
+        </div>
+
+        <div class="gallery" id="skill-gallery">
+          <h4>📷 Galerie</h4>
+
+          <div class="gallery-images">
+            <img src="assets/images/adaptation-1.jpg" alt="Photo adaptation 1" />
+            <img src="assets/images/adaptation-2.jpg" alt="Photo adaptation 2" />
+            <img src="assets/images/adaptation-3.jpg" alt="Photo adaptation 3" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+</main>
+
+<footer>
+  © 2026 — Portfolio personnel
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
