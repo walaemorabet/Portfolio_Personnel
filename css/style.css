@@ -438,3 +438,153 @@
       grid-template-columns: 1fr;
     }
   }
+
+  /* ================= RESPONSIVE TABLETTE ================= */
+@media screen and (max-width: 1024px) {
+  .navbar {
+    padding: 0 25px;
+  }
+
+  nav a {
+    margin-left: 20px;
+    font-size: 15px;
+  }
+
+  .hero {
+    padding: 60px 6%;
+    gap: 40px;
+  }
+
+  .hero-text h2 {
+    font-size: 48px;
+  }
+
+  .hero-text h3 {
+    font-size: 22px;
+  }
+
+  .hero-image {
+    width: 360px;
+    height: 360px;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .skills-container,
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .about-grid-new {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ================= RESPONSIVE TÉLÉPHONE ================= */
+@media screen and (max-width: 700px) {
+  .navbar {
+    height: auto;
+    padding: 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  nav a {
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 50px 6%;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero-text h2 {
+    font-size: 38px;
+  }
+
+  .hero-text h3 {
+    font-size: 20px;
+  }
+
+  .short-text {
+    font-size: 17px;
+  }
+
+  .hero-image {
+    width: 280px;
+    height: 280px;
+    transform: translateY(0);
+  }
+
+  .section-title {
+    font-size: 38px;
+  }
+
+  .section-subtitle {
+    font-size: 17px;
+    margin-bottom: 40px;
+  }
+
+  .skills-section,
+  .contact-section,
+  .about-section-new {
+    padding: 45px 6%;
+  }
+
+  .skills-menu {
+    flex-direction: row;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+
+  .skill-btn {
+    min-width: 190px;
+    font-size: 15px;
+  }
+
+  .skill-card,
+  .contact-form {
+    padding: 28px;
+  }
+
+  .skill-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .skill-header h3 {
+    font-size: 30px;
+  }
+
+  .examples,
+  .gallery-images,
+  .form-row,
+  .about-grid-new {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-card {
+    padding: 22px;
+  }
+
+  .contact-card strong {
+    font-size: 15px;
+  }
+
+  .about-box {
+    min-height: auto;
+  }
+}
