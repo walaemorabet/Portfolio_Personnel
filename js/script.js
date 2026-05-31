@@ -72,13 +72,14 @@ const skills = {
     adaptation: {
       icon: "🌍",
       title: "Adaptation",
-      subtitle: "Changement de pays, culture et environnement.",
-      badges: ["Nouveau pays", "Nouvelle culture", "Nouvel environnement"],
+      subtitle: "Capacité à s’intégrer rapidement dans un environnement professionnel.",
+      badges: ["Entreprise", "Équipe", "Méthodes de travail"],
       examples: [
-        "Changement de pays et de culture.",
-        "Arrivée du Maroc vers la France.",
-        "Intégration dans un nouvel environnement scolaire.",
-        "Adaptation aux méthodes de travail françaises."
+        "Intégration au sein d’une entreprise de transport.",
+        "Adaptation aux méthodes de travail de l’entreprise.",
+        "Compréhension progressive du fonctionnement interne de Transplus 18.",
+        "Utilisation des outils comptables et documents internes.",
+        "Capacité à évoluer dans un environnement professionnel exigeant."
       ],
       gallery: true
     },
@@ -148,12 +149,5 @@ const skills = {
         .map(example => `<div>▷ ${example}</div>`)
         .join("");
   
-      const gallery = document.getElementById("skill-gallery");
-  
-      if (skill.gallery) {
-        gallery.style.display = "block";
-      } else {
-        gallery.style.display = "none";
-      }
     });
   });
